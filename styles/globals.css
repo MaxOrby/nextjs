@@ -14,3 +14,48 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+header {
+  background: bisque;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+ 
+ nav ul{
+   display: flex;
+   list-style: none;
+ 
+ }
+ 
+ nav a{
+   text-decoration: none;
+   padding:  .6em;
+ }
+
+.current_nav{
+  color: blue;
+}
+
+.container {
+   padding: 0 20px;
+}
+
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  justify-items: center;
+  grid-gap: 20px;
+ 
+}
